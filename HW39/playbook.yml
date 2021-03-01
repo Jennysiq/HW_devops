@@ -1,0 +1,19 @@
+---
+  
+    
+- hosts: test_servers_group
+  become: yes
+  remote_user: ubuntu
+  tasks:
+    - name: Installs Nginx 
+      apt:
+        pkg: nginx
+        state: latest
+        update_cache: true
+      notify: start nginx
+  handlers:
+    - name: start nginx
+      service:
+        name: nginx
+        state: started
+
