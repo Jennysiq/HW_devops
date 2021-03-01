@@ -7,4 +7,4 @@ Create user and policy
 0. Policies
 0. Create policy
 0. Add permission EC2, CloudWatch, S3 bucket
-![alt text](screenshots/created_user.jpg"Created user")
+![created_user](https://user-images.githubusercontent.com/61979170/109503673-9a339480-7aab-11eb-99a7-607cf019d1c1.jpg)
