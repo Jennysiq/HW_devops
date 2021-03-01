@@ -1,0 +1,10 @@
+# 1)Создать iam юзера с пермишнами - создание инстансов, security groups и s3 бакетов (создать свою полиси и приаттачить ее к юзеру)
+***
+Create user and policy 
+0. IAM
+0. Users
+0. Add user
+0. Policies
+0. Create policy
+0. Add permission EC2, CloudWatch, S3 bucket
+![alt text](screenshots/created_user.jpg"Created user")
