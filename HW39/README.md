@@ -47,5 +47,5 @@ aws ec2 run-instances --image-id ami-0928f4202481dfdf6 --count 1 --instance-type
 * aws s3api put-bucket-policy --bucket test-jennysiq --policy file://bp.json
 
 # 6) Написать баш скрипт, который будет делать пункт 2 и 4
-
+### Check script "aws_bucket.sh" 
 
